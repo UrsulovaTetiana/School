@@ -1,6 +1,9 @@
 package org.example;
 
+import com.sun.xml.internal.ws.server.ServerRtException;
+
 import java.text.DecimalFormat;
+import java.util.Objects;
 import java.util.Scanner;
 
 public class SavingsContract {
@@ -12,6 +15,7 @@ public class SavingsContract {
         double startingCapital = 0;
         double interestRate = 0;
         int year = 0;
+        String playAgain = "";
 
         System.out.println("Please enter starting capital: ");
         startingCapital = scanner.nextDouble();
@@ -28,6 +32,12 @@ public class SavingsContract {
             double interestAmount = capital / 100 * interestRate;
             capital = capital + interestAmount;
             System.out.println(i + "\t\t " + df.format(capital - interestAmount) + "\t\t " + df.format(interestAmount) + "\t\t " + df.format(capital));
+        }
+
+        System.out.println("Do you want to calculate another population forecast?");
+        playAgain = scanner.next();
+        if (playAgain.equals("j") || playAgain.equals("J")){
+            countSavContract();
         }
 
     }

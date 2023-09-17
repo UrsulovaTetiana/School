@@ -39,7 +39,8 @@ public class Main {
 
  //       Root.sumsOfSquares(3);
   //    Root.drawSquare(6);
-        SavingsContract.countSavContract();
+  //      SavingsContract.countSavContract();
+        Population.calculatePopulation();
 
 
 
