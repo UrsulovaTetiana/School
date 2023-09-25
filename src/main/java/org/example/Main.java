@@ -1,10 +1,12 @@
 package org.example;
 
+import java.io.IOException;
+import java.text.ParseException;
 import java.util.Objects;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException, ParseException {
 //        System.out.print("What`s your name?");
 //        Scanner scanner = new Scanner(System.in);
 //        String name = scanner.nextLine();
@@ -40,7 +42,14 @@ public class Main {
  //       Root.sumsOfSquares(3);
   //    Root.drawSquare(6);
   //      SavingsContract.countSavContract();
-        Population.calculatePopulation();
+   //     Population.calculatePopulation();
+    //    ArrayTasks.addInArray();
+//        ArrayTasks.sumEvenNumbers();
+//        ArrayTasks.getMaxNumber();
+ //       ArrayTasks.vote();
+  //      Temperature.temperature();
+        Stock.calculateItems();
+
 
 
 
