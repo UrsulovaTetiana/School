@@ -48,7 +48,8 @@ public class Main {
 //        ArrayTasks.getMaxNumber();
  //       ArrayTasks.vote();
   //      Temperature.temperature();
-        Stock.calculateItems();
+ //       Stock.calculateItems();
+        BinaryAddition.addBinaryNumbers();
 
 
 
