@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class Player {
+name: String;
+age: double;
+numberOfGoals: int;
+strength: int;
+motivation: int;
+goalKick: int;
+getName(): String;
+setName(String): void;
+}
+
+@enduml
