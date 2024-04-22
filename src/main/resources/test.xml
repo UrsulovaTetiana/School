@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kaufvertrag>
+
+    <ware>
+        <bezeichnung>Tish</bezeichnung>
+        <beschreibung>lang</beschreibung>
+        <preis>150</preis>
+        <besonderheiten>
+            aus Holz
+        </besonderheiten>
+        <maengel>
+            10 Stück
+        </maengel>
+    </ware>
+
+    <vertragspartner>
+        <verkäufer>
+            <vorname>Max</vorname>
+            <name>Mustermann</name>
+            <ausweisNr>FT56478</ausweisNr>
+            <adresse>
+                <strasse>Musterstraße </strasse>
+                <hausNr>1</hausNr>
+                <plz>12345</stadt>
+                <ort>Musterstadt</ort>
+            </adresse>
+        </verkäufer>
+        <käufer>
+            <name>Erika Musterfrau</name>
+            <anschrift>
+                <strasse>Beispielweg</strasse>
+                <hausNr>2</hausNr>
+                <plz>56789</stadt>
+                <ort>Beispielhausen</ort>
+            </anschrift>
+        </käufer>
+    </vertragspartner>
+
+    <zahlungsmodalietaten>
+        <fälligkeit>2024-05-31</fälligkeit>
+        <zahlungsweise>Überweisung</zahlungsweise>
+    </zahlungsmodalietaten>
+
+</kaufvertrag>
